@@ -1,0 +1,80 @@
+/*ZADANIE SECTION */ /*ZADANIE SECTION */ /*ZADANIE SECTION */ /*ZADANIE SECTION */ /*ZADANIE SECTION */
+.ui-tabs-active {
+	background: orange !important;
+	border: orange !important;
+}
+
+code { 
+    background: hsl(220, 80%, 90%); 
+}
+
+pre {
+    white-space: pre-wrap;
+    background: hsl(30,80%,90%);
+}
+
+.zadHtml.zad1 {
+	width: 300px !important;
+}
+
+h3.zadHead a {
+	color: #ffc400 !important;
+}
+
+.activeMenu {
+	color: #ffc400 !important;
+	border: 1px solid #ffc400;
+	border-radius: 20px;
+}
+
+.white {
+	color: white !important;
+	font-size: 17px;
+	text-align: center;
+}
+
+#stronyPrzyklady img{
+	width: 100%;
+}
+
+.container.webPages {
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+
+.container .col-md-4 {
+	margin-bottom: 40px;
+}
+
+.container .col-md-4 img{
+	border: 2px solid #ffc400;
+	border-radius: 25px;
+}
+
+.container .col-md-4 p, .container .col-md-4 a {
+	color: white;
+	text-align: center;
+}
+
+.container .col-md-4 p {
+	font-size: 15px;
+	border-bottom: 3px solid #ffc400;
+	border-radius: 25px;
+}
+
+.webPages .col-md-4:hover img {
+-webkit-transform:scale(1);
+transform:scale(1);
+}
+.webPages .col-md-4{
+overflow:hidden;
+
+}
+.webPages .col-md-4 img {
+-webkit-transform:scale(1.3);
+transform:scale(1.3);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+/*ZADANIE SECTION */ /*ZADANIE SECTION */ /*ZADANIE SECTION */ /*ZADANIE SECTION */ /*ZADANIE SECTION */

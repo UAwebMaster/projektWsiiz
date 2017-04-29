@@ -8597,7 +8597,7 @@ header #logo {
     display: none; } }
 
 header .navbar-default {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Palatino Linotype', sans-serif;
   font-size: 14px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -8759,7 +8759,7 @@ section.a .textSlider {
     border-radius: 5px; }
 
 section.b h2, section.d h2, section.e h2, section.j h2, section.k h2, section.l h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Palatino Linotype', sans-serif;
   font-size: 1.9em;
   font-style: bold;
   margin-top: 95px;
@@ -8829,7 +8829,7 @@ section.b .row {
 
 section.b .colLo .icon-text {
   padding-top: 10px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Palatino Linotype', sans-serif;
   font-size: 17px; }
 
 section.c .container-fluid {
@@ -8841,7 +8841,7 @@ section.c .container-fluid {
   min-height: 280px; }
 
 section.c h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Palatino Linotype', sans-serif;
   font-size: 2.2em;
   font-style: bold;
   margin-top: 95px;
@@ -8857,7 +8857,7 @@ section.c h2 {
     color: #ffc400; }
 
 section.c #count {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Palatino Linotype', sans-serif;
   font-size: 2.2em;
   font-style: bold;
   color: white; }
@@ -8895,7 +8895,7 @@ section.d {
     font-size: 17px;
     margin-top: 20px; }
   section.d h5 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arimo', sans-serif;
     color: black !important; }
   section.d p {
     line-height: 1.8;
@@ -8967,7 +8967,7 @@ section.e .divHide {
   section.e .divHide h5 {
     text-align: center;
     font-size: 25px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arimo', sans-serif;
     padding-bottom: 27px; }
   section.e .divHide div {
     position: relative;
@@ -9053,7 +9053,7 @@ section.j .bx-wrapper .bx-viewport, section.l .bx-wrapper .bx-viewport {
       font-family: 'Arimo', sans-serif; }
     section.j .bx-wrapper .bx-viewport .slide > div p span, section.l .bx-wrapper .bx-viewport .slide > div p span {
       font-size: 16px;
-      font-family: 'Oswald', sans-serif; }
+      font-family: 'Arimo', sans-serif; }
 
 section.k .container-fluid {
   background: url("../images/bg/bg-10.jpg") no-repeat center center fixed;
@@ -9115,7 +9115,7 @@ section.l {
   section.l h3 {
     text-align: center;
     color: #1a1a1a;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-size: 35px;
     text-decoration: underline;
     background-color: #ffc400;
@@ -9238,4 +9238,150 @@ footer.footer1 {
   .footer-bottom .design a {
     float: right; }
 
+.quiz-title {
+	padding-top: 5%;
+	color: #ffc400 !important;
+}
+
+.quiz-test {
+	text-decoration: underline;
+}
+
+.e h1 {
+	color: white;
+}
+
+#quiz-start-btn {
+	background-color: #ffc400 !important;
+}
+
+.question {
+	color: white !important;
+}
+
+#quiz-controls {
+	background-color: no  !important;
+	
+}
+
+#quiz-counter {
+	color: white !important;
+}
+
+#quiz-results {
+	color: white !important;
+}
+
+/*LIST SECTION*//*LIST SECTION*//*LIST SECTION*//*LIST SECTION*//*LIST SECTION*/
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol {
+    margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+.rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);  
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #ffc400;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+h3 {
+	color: #ffc400;
+	/*text-decoration: underline;*/
+	padding-bottom: 30px;
+}
+
+.e.practiceList .container-fluid {
+  background: url("../images/book/backNew.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 51px; }
+/*LIST SECTION*//*LIST SECTION*//*LIST SECTION*//*LIST SECTION*//*LIST SECTION*/
+
+.webPages h4{
+	color: white;
+	margin-bottom: 30px !important;
+}
+
+.webPages.blog h4 a {
+	color: white;
+	background-color: #ffc400;
+	padding: 5px;
+}
+
+.blogText {
+	padding: 10px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.blogTitle a{
+	color: #ffc400 !important;
+}
+
+.backIt {
+	margin-top: 10px;
+	background-color: #ffc400 !important;
+	border: none;
+	border-radius: 10px;
+	color: white;
+}
+
+.backIt a {
+	color: white;
+}
+
+.italicText {
+	color: #ffc400;
+	font-style: italic;
+	/*background-color: white;*/
+}
+
+span.red {
+	/*color: red;*/
+	border-bottom: 3px solid red;
+}
 /*# sourceMappingURL=application.css.map */
