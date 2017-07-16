@@ -339,3 +339,18 @@
     });
 
  
+
+$(document).ready(function(){
+   $('#sendForm').click(function() {
+   var name = $('#formName').val();
+   var email = $('#formEmail').val();
+   var formTextarea = $("#formTextarea").val();
+   if(name.length > 0 && email.length > 0) {
+   alert('Wiadomość została wysłana');
+   $('#formName').val('');
+   $('#formEmail').val('');
+   $("#formTextarea").val('');
+   }
+   else alert("Pole name, email, wiadomość so wymagane");
+  });
+});
